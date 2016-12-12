@@ -1,0 +1,8 @@
+#ifndef _WRITEN_H_
+#define _WRITEN_H_
+
+#include <unistd.h>
+
+ssize_t writen(int fd, const void *ptr, size_t n);
+
+#endif	/* _WRITEN_H_ */
