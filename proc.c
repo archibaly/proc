@@ -58,8 +58,7 @@ int proc_spawn(spawn_proc_pt proc, void *args, char *name, int respawn)
 void proc_wait(void)
 {
 	pid_t pid;
-	int i;
-	int status;
+	int i, status;
 	char *proc_name;
 
 	for (;;) {
